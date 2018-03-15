@@ -1,4 +1,5 @@
 #!/bin/bash
+rm -rf ./minapp.docset.tgz
 mkdir -p ./temp/wxadoc
 cd ./temp/wxadoc
 wget -r -p -k -np https://mp.weixin.qq.com/debug/wxadoc/dev/
